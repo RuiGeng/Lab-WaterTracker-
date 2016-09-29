@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *waterButton;
+
+@property NSArray *imageArray;
+
+@property int waterIndex;
 
 @end
 
